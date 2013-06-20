@@ -1,0 +1,13 @@
+{application, mini_pool,
+ [
+  {description, "A dynamic pool management tool"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  ets_mgr
+                 ]},
+  {mod, { mini_pool_app, []}},
+  {env, []}
+ ]}.
